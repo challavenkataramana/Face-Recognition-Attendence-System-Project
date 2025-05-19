@@ -78,9 +78,9 @@ def main():
                         return
 
                
-                center_x = (left + right) // 2
-                center_y = (top + bottom) // 2
-                radius = (right - left) // 2
+                center_x = (left + right) 
+                center_y = (top + bottom) 
+                radius = (right - left)
                 cv2.circle(frame, (center_x, center_y), radius, (0, 255, 0), 2)
 
                
