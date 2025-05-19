@@ -13,7 +13,7 @@ const Home = () => {
               Face Recognition Attendance System
             </h1>
             <p className="max-w-3xl mx-auto text-base sm:text-lg md:text-xl text-blue-100 mb-6 sm:mb-8 px-2">
-              Automate your attendance tracking with AI-powered facial recognition technology.
+              Automate your attendance tracking with AI powered facial recognition technology.
               Reduce human error, save time, and ensure accurate records.
             </p>
             <div className="flex flex-col space-y-3 sm:space-y-0 sm:flex-row justify-center gap-3 sm:gap-4">
