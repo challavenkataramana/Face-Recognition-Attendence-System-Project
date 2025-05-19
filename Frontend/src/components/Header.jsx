@@ -10,7 +10,6 @@ const Header = () => {
       <div className="max-w-7xl   px-4 py-3 flex items-center sm:mx-16 justify-between">
         <h1 className="text-xl font-bold">Face Attendance</h1>
 
-     
         <button
           className="md:hidden text-white text-2xl focus:outline-none"
           onClick={() => setIsOpen(!isOpen)}
@@ -18,7 +17,6 @@ const Header = () => {
           <FaBars />
         </button>
 
-       
         <nav className="hidden md:flex space-x-3 font-semibold">
           <Link
             to="/"
@@ -35,7 +33,6 @@ const Header = () => {
         </nav>
       </div>
 
-      
       <div
         className={`md:hidden overflow-hidden transition-all duration-300 ${
           isOpen ? "max-h-40" : "max-h-0"
