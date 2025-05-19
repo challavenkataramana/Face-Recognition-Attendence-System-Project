@@ -5,11 +5,9 @@ import csv
 from datetime import datetime
 import os
 
-
 ATTENDANCE_CSV = "attendance.csv"
 ENCODINGS_FILE = "encodings/encodings.pkl"
 MIN_CONFIDENCE = 0.6  
-
 
 def init_csv():
     if not os.path.exists(ATTENDANCE_CSV):
@@ -29,7 +27,6 @@ def load_known_faces():
         print(f"[ERROR] Failed to load encodings: {str(e)}")
         exit()
 
-
 def main():
     init_csv()
     data = load_known_faces()
@@ -46,8 +43,7 @@ def main():
         ret, frame = video_capture.read()
         if not ret:
             continue
-
-        
+ 
         rgb_frame = cv2.resize(frame[:, :, ::-1], (0, 0), fx=0.25, fy=0.25)
         face_locations = face_recognition.face_locations(rgb_frame)
 

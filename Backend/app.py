@@ -110,7 +110,6 @@ if __name__ == "__main__":
 
 
 
-
 """
 app.py - Flask Backend for Real-Time Face Recognition Attendance System
 

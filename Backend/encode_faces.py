@@ -4,7 +4,6 @@ import pickle
 from tqdm import tqdm
 import cv2
 
-
 dataset_dir = 'dataset'
 encoding_file = 'encodings/encodings.pkl'
 os.makedirs('encodings', exist_ok=True)
