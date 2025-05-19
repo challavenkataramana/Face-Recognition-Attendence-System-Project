@@ -98,7 +98,7 @@ const Home = () => {
               © {new Date().getFullYear()} Face Recognition Attendance System
             </p>
             <p className="text-gray-400 text-xs sm:text-sm">
-               Developed by Your Challa Venkata Ramana
+               Developed by  Challa Venkata Ramana
             </p>
           </div>
         </div>
