@@ -107,3 +107,28 @@ def get_attendance():
 
 if __name__ == "__main__":
     app.run(debug=True)
+
+
+
+
+"""
+app.py - Flask Backend for Real-Time Face Recognition Attendance System
+
+This file serves as the backend server for the Real-Time Face Recognition Attendance System.
+Originally, the project was implemented using only Python scripts for face registration, encoding, and attendance logging.
+As an enhancement, a web-based frontend was added using React to provide a user-friendly interface.
+
+Key Responsibilities:
+- Exposes REST API endpoints for face registration, encoding, and attendance logging.
+- Handles image uploads and communicates with the face recognition logic.
+- Sends and receives data to/from the React frontend via HTTP requests (JSON).
+- Manages server-side data storage and processing.
+
+Frontend Integration:
+- The React frontend interacts with this Flask backend by making API calls for all major functionalities.
+- Users can register faces, view attendance, and trigger recognition through the web interface.
+- All heavy processing (face detection, encoding, and recognition) is handled by this backend.
+
+This file is the main entry point for the backend server. 
+To run the complete application, start this Flask server and then run the React frontend.
+"""

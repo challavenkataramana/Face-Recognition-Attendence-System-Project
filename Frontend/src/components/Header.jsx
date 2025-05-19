@@ -7,7 +7,7 @@ const Header = () => {
 
   return (
     <header className="bg-gray-400  text-white shadow-md ">
-      <div className="max-w-6xl   px-4 py-3 flex items-center sm:mx-16 justify-between">
+      <div className="max-w-7xl   px-4 py-3 flex items-center sm:mx-16 justify-between">
         <h1 className="text-xl font-bold">Face Attendance</h1>
 
      
@@ -19,7 +19,7 @@ const Header = () => {
         </button>
 
        
-        <nav className="hidden md:flex space-x-6 font-semibold">
+        <nav className="hidden md:flex space-x-3 font-semibold">
           <Link
             to="/"
             className="px-3 py-2 rounded-md hover:bg-gray-700 transition duration-300"
